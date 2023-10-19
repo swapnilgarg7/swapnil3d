@@ -125,7 +125,7 @@ const tick = () => {
     // Render
     renderer.render(scene, camera)
 
-    if (camera.position.z < 5)
+    if (camera.position.z < 7)
         camera.position.z += 0.01
 
 
